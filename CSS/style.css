@@ -1,0 +1,49 @@
+* {
+    box-sizing: content-box;
+}
+
+
+body {
+font-family: 'Verdana', sans-serif;
+
+}
+mainheader {
+    color: black;
+    position:relative;
+   text-align: center;
+        height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+    overflow: scroll;
+   
+}
+
+#mainheader .header-caption {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: block;
+    margin-top: auto;
+    margin-right: auto;
+}
+    
+#mainheader .header-caption h1 {
+    font-size: 40px;
+    background-image: url(../../obrazy/man-1.jpg);
+}
+
+#mainheader .header-caption h2 {
+    font-size: 2.8em;
+}
+@media (max-width: 480px) {
+    header {
+        background-image: url(../../obrazy/man-1.jpg);
+    }
+}
+ @media (max-width: 768px) {
+.header {
+        background-image: url(../../obrazy/man-2.jpg);
+    }
+}
