@@ -1,49 +1,64 @@
-* {
-    box-sizing: content-box;
+ * {
+    box-sizing: border-box;
 }
 
 
 body {
 font-family: 'Verdana', sans-serif;
+    background-image: url(../../obrazy/man-1.jpg);
+  
 
 }
-mainheader {
-    color: black;
-    position:relative;
-   text-align: center;
-        height: 100vh;
-    position: relative;
-    background-attachment: fixed;
-    overflow: scroll;
+#mainheader {
+  background-attachment: scroll;
+ background-size:contain;
+background-position:center;
+    background-image: url(../../obrazy/man-1.jpg);
    
 }
 
-#mainheader .header-caption {
+.header-caption {
     position: absolute;
-    top: 50%;
-    left: 0;
+   left: 0;
     right: 0;
-    text-align: center;
-    display: block;
+    display: inline-block;
     margin-top: auto;
     margin-right: auto;
+    font-size: 40px;
 }
     
-#mainheader .header-caption h1 {
-    font-size: 40px;
-    background-image: url(../../obrazy/man-1.jpg);
-}
 
-#mainheader .header-caption h2 {
-    font-size: 2.8em;
-}
-@media (max-width: 480px) {
-    header {
-        background-image: url(../../obrazy/man-1.jpg);
+
+@media (max-width: 992x) {
+    .header-caption {
+   background-size: cover;
+        text-align: right;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 992px;
+    height: 100%;
     }
 }
- @media (max-width: 768px) {
-.header {
+ @media (min-width: 992px) and (max-width: 1170px) {
+.header-caption {
         background-image: url(../../obrazy/man-2.jpg);
+    text-align: right;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
+    }
+}
+ @media (min-width: 1170px) {
+.header-caption {
+        background-image: url(../../obrazy/man-1.jpg);
+    text-align: left;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height: 100%;
     }
 }
