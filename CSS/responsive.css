@@ -1,0 +1,77 @@
+* {
+	box-sizing: border-box;
+}
+
+#mainheader {
+	width: 100%;
+}
+
+
+@media (max-width:1170px) {
+	#mainheader {
+		height: 100%;
+	}
+
+
+	
+@media (max-width:1170px) {
+		
+	#mainheader .header-caption {
+		text-align: left;
+		vertical-align: center;
+		position: relative;
+		color: #fff;
+		top: 50%;
+		}
+
+	
+	
+
+@media (max-width:1170px) and (min-width: 992px) {
+		#mainheader {
+			height:  70%;
+			background-image: url(../CSS/obrazy/man-2.jpg);
+		}
+	}
+	
+
+
+	#mainheader .header-caption {
+		text-align: right;
+		position: relative;
+		top: 5%;
+	}
+
+	
+
+	#mainheader .header-caption .h1 {
+		margin-right: 420px;
+		color: #fff;
+	}
+
+	
+	
+
+	#mainheader .header-caption .h2 {
+		margin-right: 20px;
+		color: #fff;
+	}
+
+	
+	
+	
+@media (max-width: 992px) {
+  		#mainheader {
+        height: 50%;
+        background-image: url(../CSS/obrazy/man-1.jpg);
+     	display: inline-block;
+    }
+
+	
+	
+    #mainheader .header-caption {
+		top: 100%;
+        text-align: center;
+		color: #000;
+       
+    }	
