@@ -1,45 +1,40 @@
- * {
-    box-sizing: border-box;
-}
+* {
+     box-sizing: border-box;
+ }
+ 
+ body {
+     margin: 0;
+     font-family: 'Verdana', sans-serif;
+ }
+ 
+ h1 {
+     font-size: 2em;
+     text-transform: uppercase;
+ }
+ 
+ h2 {
+     font-size: 1.5em;
+     text-transform: uppercase;
+ }
 
-
-
-body {
-    margin: 0;
-    font-family: 'Verdana', sans-serif;
-   }
-
-  
-
-}
 #mainheader {
-  margin: 0;
-    background-image: url(../CSS/obrazy/man-1.jpg);
-  background-position: center;
-	background-size: cover;
-	height: 100%;
-	width: 100%;
-	position: relative;
-	text-align: center;
+    margin: 0;
+    background-image: url(../obrazy/man-1.jpg);
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    transition: all .6s;
+    text-align: center;
 }
-
 #mainheader .header-caption {
     text-transform: uppercase;
-    top: 50%;
-    transform: translateY(-50%);
     text-align: left;
-vertical-align: center;
-color: #fff;
-top: 50%;    
-position: absolute;
-margin-left: 20px;
+    vertical-align: center;
+    color: #fff;
+    top: 50%;
+    position: relative;
+    margin-left: 30px;
+    line-height: 120%;
 }
-
-h1 {
-        font-size: 2em;
-    }
-    
-h2 {
-        font-size: 1.5em;
-    }
-
